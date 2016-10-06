@@ -8,7 +8,8 @@ import static jdk.nashorn.internal.objects.NativeFunction.function;
 
 public class ServletCalcu extends HttpServlet {
 
-    int num1, num2, res;
+    int num1, num2;
+    float res;
 
     public void doPost(HttpServletRequest peticion, HttpServletResponse respuesta)
             throws ServletException, IOException {
